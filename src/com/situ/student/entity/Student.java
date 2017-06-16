@@ -45,5 +45,12 @@ public class Student {
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", age=" + age + ", gender=" + gender + "]";
 	}
+	public Student(String name, int age, String gender) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+	
 	
 }
